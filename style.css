@@ -35,7 +35,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("./assets/background-top.png");
+  /*background-image: url("./assets/background-top.png");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -43,6 +43,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 header {
   position: relative;
@@ -74,7 +75,7 @@ body * {
   margin-top: 96px;
   margin-bottom: 48px;
   text-align: center;
-  padding: 24px;
+  padding: 16px;
 }
 
 .avatar-wrapper {
@@ -146,6 +147,12 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
+}
+
+@media (max-width: 350px) {
+  .avatar-wrapper {
+    width: 100%;
+  }
 }
 
 footer {
