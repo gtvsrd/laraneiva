@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-header {
+header{
   position: relative;
   color: white;
   height: 50px;
@@ -155,7 +155,7 @@ ul li a:hover {
   }
 }
 
-footer {
+footer p {
   height: 200px;
   font-size: 18px;
   text-align: center;
